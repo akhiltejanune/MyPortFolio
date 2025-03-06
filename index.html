@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 1 PRACTICE</title>
+    <link rel="shortcut icon" href="image.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+        body {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            background-color: #121212;
+            margin: 0;
+            padding: 0;
+            color: rgb(248, 236, 236);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(248, 236, 236);
+            font-size: 3rem;
+            margin-top: 20px;
+        }
+
+        h2, h3 {
+            color: rgb(202, 204, 202);
+            margin-left: 30px;
+        }
+
+        h3 {
+            margin-top: 15px;
+        }
+
+        p {
+            color: rgb(236, 247, 235);
+            margin-left: 30px;
+            font-size: 1.1rem;
+        }
+
+        table {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        th, td {
+            border: 1px solid rgb(102, 104, 103);
+            padding: 12px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        th {
+            background-color: rgb(198, 240, 255);
+            color: rgb(0, 0, 0);
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(31, 31, 31);
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgb(42, 42, 42);
+        }
+
+        .akhil {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+            
+        }
+        .akhil:hover {
+            animation: updown 1.3s ease infinite;
+            box-shadow: #1e90ff 0 0 10px;
+        }
+        @keyframes updown {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        table:hover {
+            transform: translateX(5px), translateY(5px);
+            transition: all 0.3s ease;
+        }
+
+        i {
+            color: rgb(236, 247, 235);
+            font-size: 2rem;
+            margin-left: 15px;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        i:hover {
+            color: #1e90ff;
+            transform: scale(1.2);
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .social-icons a {
+            margin: 0 20px;
+            font-size: 2.5rem;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            transform: scale(1.2);
+            color: #1e90ff;
+        }
+
+        .container {
+            padding: 0 20px;
+        }
+
+        hr {
+            border: 1px solid rgb(102, 104, 103);
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+
+        .contact-info a {
+            color: rgb(236, 247, 235);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            color: #1e90ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>PORTFOLIO</h1>
+        <hr>
+        <h2>Intro</h2>
+        <p>This is AKHIL TEJA, Tech Enthusiast, Passionate about learning new technologies and applying them to solve real-world problems.</p>
+        <img class="akhil" src="image.png" alt="akhil teja" height="200px" draggable="false">
+        <hr>
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>SL.No</th>
+                <th>Qualifications</th>
+                <th>Institution</th>
+                <th>Percentage</th>
+                <th>Passed Year</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>B.Tech</td>
+                <td>Vignan University</td>
+                <td>80%</td>
+                <td>2027</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Intermediate Education</td>
+                <td>AAKASH Institute</td>
+                <td>76.3%</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Schooling</td>
+                <td>Kakatiya Educational Institutions</td>
+                <td>98%</td>
+                <td>2021</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Key Skills</h2>
+        <h3>Technical Skills</h3>
+        <ol type="A">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+        </ol>
+        <h3>Soft Skills</h3>
+        <ul type="circle">
+            <li>Leadership</li>
+            <li>Teamwork</li>
+            <li>Problem Solving</li>
+            <li>Communication</li>
+        </ul>
+        <hr>
+        <h2>Social Media</h2>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/akhiltejnune" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/akhiltejanune_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="tel:9347460319"><i class="fa-solid fa-phone-volume" target="_blank"></i></a>
+        </div>
+        <div class="contact-info">
+            <p>For any inquiries, feel free to contact me!</p>
+            <a href="mailto:akhilteja@example.com">Email Me</a>
+        </div>
+    </div>
+</body>
+
+</html>
