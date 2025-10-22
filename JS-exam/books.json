@@ -1,0 +1,14 @@
+[
+  {"id": 1, "title": "Atomic Habits", "author": "James Clear", "available": true},
+  {"id": 2, "title": "Deep Work", "author": "Cal Newport", "available": false},
+  {"id": 3, "title": "The Power of Now", "author": "Eckhart Tolle", "available": true},
+  {"id": 4, "title": "The 7 Habits of Highly Effective People", "author": "Stephen R. Covey", "available": true},
+  {"id": 5, "title": "Think and Grow Rich", "author": "Napoleon Hill", "available": false},
+  {"id": 6, "title": "Can't Hurt Me", "author": "David Goggins", "available": true},
+  {"id": 7, "title": "Start With Why", "author": "Simon Sinek", "available": true},
+  {"id": 8, "title": "Educated", "author": "Tara Westover", "available": false},
+  {"id": 9, "title": "The Subtle Art of Not Giving a F*ck", "author": "Mark Manson", "available": true},
+  {"id": 10, "title": "Zero to One", "author": "Peter Thiel", "available": false},
+  {"id": 11, "title": "Sapiens: A Brief History of Humankind", "author": "Yuval Noah Harari", "available": true},
+  {"id": 12, "title": "The Alchemist", "author": "Paulo Coelho", "available": true}
+]
